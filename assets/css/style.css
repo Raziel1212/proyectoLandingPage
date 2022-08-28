@@ -1,0 +1,65 @@
+.centrar {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#fondo {
+    width: 80%;
+    height: 200px;
+    background-image: url(../img/principal1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#fondo h1 {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+/* Segunda Seccion */
+.productos {
+    display: flex;
+    margin-left: 15%;
+    justify-content: left;
+}
+
+.productos img {
+    width: 10em;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    transition: 300ms;
+}
+
+.productos img:hover {
+    transform: scale(1.10);
+}
+
+.productos p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-left: 1.5em;
+}
+
+.productos #negrita1,
+#negrita2,
+#negrita3,
+#negrita4 {
+    font-weight: bold;
+}
+
+/* FOOTER: */
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
